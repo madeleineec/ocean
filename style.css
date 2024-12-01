@@ -1,0 +1,121 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Nunito", sans-serif;
+  color: white;
+}
+
+/* Background Div */
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  background-image: url('bkg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+/* Content Div */
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+.intro {
+  color:black;
+  margin-top:20vmin;
+  text-align: center;
+}
+
+.intro h1 {
+  margin-bottom:2vmin;
+}
+
+.ending h1, h2{
+  text-align: center;
+}
+
+.ending {
+  margin:20vmin;
+}
+
+.break {
+  margin-bottom:2vmin;
+}
+
+.breakk {
+  margin-bottom:100vmin;
+}
+
+.beforeMain {
+  margin-bottom:40vmin;
+}
+
+.marker {
+  text-align: center;
+  margin-top: 5vmin;
+  margin-bottom:1vmin;
+}
+
+.miniMarker {
+  text-align: center;
+  margin-top: 5vmin;
+  margin-bottom:1vmin;
+}
+
+.extra {
+  font-style:italic;
+}
+
+.extraa {
+  font-style:italic;
+  text-align: center;
+  margin-bottom:5vmin;
+}
+
+.species {
+  position: relative;
+  max-width: calc(100% - 60px); /* Prevent images from going off-screen */
+  overflow: visible;
+}
+
+.species img {
+  width: 150px; /* Adjust image size as needed */
+  height:auto;
+}
+
+.species p {
+  margin:0;
+}
+
+.sunlight .species {
+  margin-top: 1vmin; /* Adjust this value to control overlap */
+}
+
+.twilight .species {
+  margin-top: 8vmin; /* Adjust this value to control overlap */
+}
+
+.midnight .species {
+  margin-top: 40vmin;
+}
+
+.abyssal .species {
+  margin-top: 70vmin;
+}
+
+.hadal .species {
+  margin-top: 120vmin;
+}
+
+.sunlight,
+.twilight,
+.midnight,
+.abyssal,
+.hadal {
+  position: relative;
+}
