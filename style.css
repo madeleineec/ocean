@@ -51,6 +51,14 @@ body, html {
   margin-bottom:100vmin;
 }
 
+.breakkk {
+  margin-bottom:50vmin;
+}
+
+.breakkk {
+  margin-bottom:20vmin;
+}
+
 .beforeMain {
   margin-bottom:40vmin;
 }
@@ -101,7 +109,7 @@ body, html {
 }
 
 .midnight .species {
-  margin-top: 40vmin;
+  margin-top: 50vmin;
 }
 
 .abyssal .species {
@@ -118,4 +126,32 @@ body, html {
 .abyssal,
 .hadal {
   position: relative;
+}
+
+.notification {
+  position: relative;
+  max-width: 250px;
+  padding: 10px 15px;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #333;
+  border-radius: 10px;
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  clear: both;
+}
+
+.notification.left {
+  float: left;
+  margin-left: 10vmin;
+}
+
+.notification.right {
+  float: right;
+  margin-right: 10vmin;
+}
+
+.notification p {
+  margin: 0;
 }
