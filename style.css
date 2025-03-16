@@ -1,0 +1,157 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Nunito", sans-serif;
+  color: white;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  background-image: url('bkg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+.intro {
+  color:black;
+  margin-top:20vmin;
+  text-align: center;
+}
+
+.intro h1 {
+  margin-bottom:2vmin;
+}
+
+.ending h1, h2{
+  text-align: center;
+}
+
+.ending {
+  margin:20vmin;
+}
+
+.break {
+  margin-bottom:2vmin;
+}
+
+.breakk {
+  margin-bottom:100vmin;
+}
+
+.breakkk {
+  margin-bottom:50vmin;
+}
+
+.breakkk {
+  margin-bottom:20vmin;
+}
+
+.beforeMain {
+  margin-bottom:40vmin;
+}
+
+.marker {
+  text-align: center;
+  margin-top: 5vmin;
+  margin-bottom:1vmin;
+}
+
+.miniMarker {
+  text-align: center;
+  margin-top: 5vmin;
+  margin-bottom:1vmin;
+}
+
+.extra {
+  font-style:italic;
+  font-weight: bold;
+}
+
+.extraa {
+  font-style:italic;
+  text-align: center;
+  margin-bottom:5vmin;
+  font-weight: bold;
+}
+
+.species {
+  position: relative;
+  max-width: calc(100% - 60px);
+  overflow: visible;
+}
+
+.species img {
+  width: 150px;
+  height:auto;
+}
+
+.species p {
+  margin:0;
+}
+
+.sunlight .species {
+  margin-top: 1vmin;
+}
+
+.twilight .species {
+  margin-top: 8vmin;
+}
+
+.midnight .species {
+  margin-top: 50vmin;
+}
+
+.abyssal .species {
+  margin-top: 70vmin;
+}
+
+.hadal .species {
+  margin-top: 120vmin;
+}
+
+.sunlight,
+.twilight,
+.midnight,
+.abyssal,
+.hadal {
+  position: relative;
+}
+
+.notification {
+  position: relative;
+  max-width: 250px;
+  padding: 10px 15px;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #333;
+  border-radius: 10px;
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  clear: both;
+}
+
+.notification.left {
+  float: left;
+  margin-left: 10vmin;
+}
+
+.notification.right {
+  float: right;
+  margin-right: 10vmin;
+}
+
+.notification p {
+  margin: 0;
+}
